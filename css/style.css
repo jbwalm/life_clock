@@ -9,11 +9,10 @@ body{
     border-radius: 5px; /*curves the edges of the div element by 5px;*/
 }
 #countdown {
-    font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
     display: inline-block; /*displays divs on a line*/
 }
 
-#countdown span {
-    font-weight: bold; /*boldens text in the span element*/
-    font-size: 30px; /*changes the text size in the span element*/
+#countdown span, #percentage-container span {
+    font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
+    font-size: 20px; /*changes the text size in the span element*/
 }
