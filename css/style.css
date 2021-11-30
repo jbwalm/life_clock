@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+#countdown-container {
+    display: inline-block; /*displays divs on a line*/
+    width: 300px; /*gives the div element a width of 300px*/
+    border-radius: 5px; /*curves the edges of the div element by 5px;*/
+}
+#countdown {
+    font-family: "Fira Sans", sans-serif; /*changes the text font in the divelement */
+    display: inline-block; /*displays divs on a line*/
+}
+
+#countdown span {
+    font-weight: bold; /*boldens text in the span element*/
+    font-size: 30px; /*changes the text size in the span element*/
+}
