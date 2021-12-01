@@ -57,7 +57,7 @@ var x = setInterval(() => {
     setHours(convert(tempSeconds, 60 * 60));
     setMinutes(convert(tempSeconds, 60));
     setSeconds(tempSeconds == 60 ? 59 : tempSeconds);
-    setPercentage(Math.round((time_spent / time_total) * 100));
+    setPercentage(Math.round((time_spent / time_total) * 10000) / 100);
     totalSeconds--;
     tempSeconds = totalSeconds;
 }, 1000);
